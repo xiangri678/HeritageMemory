@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02BCF932A13A34500BFD7A4 /* sheepV5.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D02BCF922A13A34500BFD7A4 /* sheepV5.rcproject */; };
+		D02BCF952A15382200BFD7A4 /* OxV8.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D02BCF942A15382200BFD7A4 /* OxV8.rcproject */; };
+		D089D94C2C0B508400ACADE3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089D94B2C0B508400ACADE3 /* SettingsView.swift */; };
+		D089D94E2C0B5B2F00ACADE3 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089D94D2C0B5B2F00ACADE3 /* FeedbackView.swift */; };
+		D089D9522C0CA77000ACADE3 /* tutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089D9512C0CA77000ACADE3 /* tutorialView.swift */; };
+		D0A3B9E52A014C33008DDFD9 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A3B9E42A014C33008DDFD9 /* ARKit.framework */; };
+		D0A3BA272A0356E2008DDFD9 /* ARView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3BA262A0356E2008DDFD9 /* ARView1.swift */; };
+		D0A5822A2A16938300575F71 /* RainWater.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A582262A16938300575F71 /* RainWater.rcproject */; };
+		D0A5822B2A16938300575F71 /* GrainRain.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A582272A16938300575F71 /* GrainRain.rcproject */; };
+		D0A5822C2A16938300575F71 /* WakingOfInsects.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A582282A16938300575F71 /* WakingOfInsects.rcproject */; };
+		D0A5822E2A16940300575F71 /* ARView_WakingOfInsects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5822D2A16940300575F71 /* ARView_WakingOfInsects.swift */; };
+		D0A582302A16941300575F71 /* ARView_RainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5822F2A16941300575F71 /* ARView_RainWater.swift */; };
+		D0A582322A16942000575F71 /* ARView_PureBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A582312A16942000575F71 /* ARView_PureBrightness.swift */; };
+		D0A582342A16942E00575F71 /* ARView_GrainRain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A582332A16942E00575F71 /* ARView_GrainRain.swift */; };
+		D0A582362A169B1400575F71 /* PureBrightness.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A582352A169B1400575F71 /* PureBrightness.rcproject */; };
+		D0A8E42C2A12787200B7F2BB /* ARView_Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E42B2A12787200B7F2BB /* ARView_Monkey.swift */; };
+		D0A8E4342A1279FB00B7F2BB /* monkeyV4.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E4332A1279FB00B7F2BB /* monkeyV4.rcproject */; };
+		D0A8E4362A12825500B7F2BB /* ARView_Sheep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E4352A12825500B7F2BB /* ARView_Sheep.swift */; };
+		D0A8E4382A12826600B7F2BB /* ARView_Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E4372A12826600B7F2BB /* ARView_Pig.swift */; };
+		D0A8E43A2A1282A400B7F2BB /* ARView_Ox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E4392A1282A400B7F2BB /* ARView_Ox.swift */; };
+		D0A8E43E2A12832A00B7F2BB /* Pig.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0A8E43C2A12832A00B7F2BB /* Pig.rcproject */; };
+		D0BEB4AB2A06058900B56B08 /* ARView_SpringEquinox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4AA2A06058900B56B08 /* ARView_SpringEquinox.swift */; };
+		D0BEB4AD2A06060400B56B08 /* TheBeginingOfSpringPostcard copy 2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4AC2A06060400B56B08 /* TheBeginingOfSpringPostcard copy 2.rcproject */; };
+		D0BEB4AF2A06061200B56B08 /* TheSpringEquinox.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4AE2A06061200B56B08 /* TheSpringEquinox.rcproject */; };
+		D0BEB4B12A06111900B56B08 /* ARView_BegingOfSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4B02A06111900B56B08 /* ARView_BegingOfSpring.swift */; };
+		D0BEB4B32A06833100B56B08 /* ARView_Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4B22A06833100B56B08 /* ARView_Dragon.swift */; };
+		D0BEB4B52A0683C400B56B08 /* DragonV1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB4B42A0683C400B56B08 /* DragonV1.rcproject */; };
+		D0E6D439299A8863008691C6 /* ARQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6D438299A8863008691C6 /* ARQuickLookView.swift */; };
+		DD2D465529966D1B005DDF3C /* ARcameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D465429966D1B005DDF3C /* ARcameraView.swift */; };
+		DD2D46592997A634005DDF3C /* Using ArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D46582997A634005DDF3C /* Using ArView.swift */; };
+		DD5BC4572993DBE200473DAA /* Heritage_MemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BC4562993DBE200473DAA /* Heritage_MemoryApp.swift */; };
+		DD5BC4592993DBE200473DAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BC4582993DBE200473DAA /* ContentView.swift */; };
+		DD5BC45B2993DBE400473DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5BC45A2993DBE400473DAA /* Assets.xcassets */; };
+		DD5BC45E2993DBE400473DAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5BC45D2993DBE400473DAA /* Preview Assets.xcassets */; };
+		DD5BC4682993DBE400473DAA /* Heritage_MemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BC4672993DBE400473DAA /* Heritage_MemoryTests.swift */; };
+		DD5BC4722993DBE400473DAA /* Heritage_MemoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BC4712993DBE400473DAA /* Heritage_MemoryUITests.swift */; };
+		DD5BC4742993DBE400473DAA /* Heritage_MemoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5BC4732993DBE400473DAA /* Heritage_MemoryUITestsLaunchTests.swift */; };
+		DD6C033C29AA2C3700FFE2A6 /* ARCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C033B29AA2C3700FFE2A6 /* ARCardView.swift */; };
+		DD9ED09D2994B3B200FC6266 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9ED09C2994B3B200FC6266 /* firstView.swift */; };
+		DD9ED0A1299513AB00FC6266 /* aecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9ED0A0299513AB00FC6266 /* aecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5BC4642993DBE400473DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5BC44B2993DBE200473DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5BC4522993DBE200473DAA;
+			remoteInfo = "Heritage Memory";
+		};
+		DD5BC46E2993DBE400473DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5BC44B2993DBE200473DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5BC4522993DBE200473DAA;
+			remoteInfo = "Heritage Memory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02BCF922A13A34500BFD7A4 /* sheepV5.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = sheepV5.rcproject; sourceTree = "<group>"; };
+		D02BCF942A15382200BFD7A4 /* OxV8.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = OxV8.rcproject; sourceTree = "<group>"; };
+		D089D94B2C0B508400ACADE3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D089D94D2C0B5B2F00ACADE3 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		D089D9512C0CA77000ACADE3 /* tutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialView.swift; sourceTree = "<group>"; };
+		D0A3B9E42A014C33008DDFD9 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		D0A3BA262A0356E2008DDFD9 /* ARView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView1.swift; sourceTree = "<group>"; };
+		D0A582262A16938300575F71 /* RainWater.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = RainWater.rcproject; sourceTree = "<group>"; };
+		D0A582272A16938300575F71 /* GrainRain.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = GrainRain.rcproject; sourceTree = "<group>"; };
+		D0A582282A16938300575F71 /* WakingOfInsects.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = WakingOfInsects.rcproject; sourceTree = "<group>"; };
+		D0A5822D2A16940300575F71 /* ARView_WakingOfInsects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_WakingOfInsects.swift; sourceTree = "<group>"; };
+		D0A5822F2A16941300575F71 /* ARView_RainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_RainWater.swift; sourceTree = "<group>"; };
+		D0A582312A16942000575F71 /* ARView_PureBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_PureBrightness.swift; sourceTree = "<group>"; };
+		D0A582332A16942E00575F71 /* ARView_GrainRain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_GrainRain.swift; sourceTree = "<group>"; };
+		D0A582352A169B1400575F71 /* PureBrightness.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PureBrightness.rcproject; sourceTree = "<group>"; };
+		D0A8E42B2A12787200B7F2BB /* ARView_Monkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Monkey.swift; sourceTree = "<group>"; };
+		D0A8E4332A1279FB00B7F2BB /* monkeyV4.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = monkeyV4.rcproject; sourceTree = "<group>"; };
+		D0A8E4352A12825500B7F2BB /* ARView_Sheep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Sheep.swift; sourceTree = "<group>"; };
+		D0A8E4372A12826600B7F2BB /* ARView_Pig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Pig.swift; sourceTree = "<group>"; };
+		D0A8E4392A1282A400B7F2BB /* ARView_Ox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Ox.swift; sourceTree = "<group>"; };
+		D0A8E43C2A12832A00B7F2BB /* Pig.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Pig.rcproject; sourceTree = "<group>"; };
+		D0BEB4AA2A06058900B56B08 /* ARView_SpringEquinox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_SpringEquinox.swift; sourceTree = "<group>"; };
+		D0BEB4AC2A06060400B56B08 /* TheBeginingOfSpringPostcard copy 2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "TheBeginingOfSpringPostcard copy 2.rcproject"; sourceTree = "<group>"; };
+		D0BEB4AE2A06061200B56B08 /* TheSpringEquinox.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = TheSpringEquinox.rcproject; sourceTree = "<group>"; };
+		D0BEB4B02A06111900B56B08 /* ARView_BegingOfSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_BegingOfSpring.swift; sourceTree = "<group>"; };
+		D0BEB4B22A06833100B56B08 /* ARView_Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Dragon.swift; sourceTree = "<group>"; };
+		D0BEB4B42A0683C400B56B08 /* DragonV1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = DragonV1.rcproject; sourceTree = "<group>"; };
+		D0E6D438299A8863008691C6 /* ARQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLookView.swift; sourceTree = "<group>"; };
+		DD2D465429966D1B005DDF3C /* ARcameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARcameraView.swift; sourceTree = "<group>"; };
+		DD2D46582997A634005DDF3C /* Using ArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Using ArView.swift"; sourceTree = "<group>"; };
+		DD5BC4532993DBE200473DAA /* Heritage Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heritage Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5BC4562993DBE200473DAA /* Heritage_MemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heritage_MemoryApp.swift; sourceTree = "<group>"; };
+		DD5BC4582993DBE200473DAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD5BC45A2993DBE400473DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5BC45D2993DBE400473DAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD5BC4632993DBE400473DAA /* Heritage MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heritage MemoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5BC4672993DBE400473DAA /* Heritage_MemoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heritage_MemoryTests.swift; sourceTree = "<group>"; };
+		DD5BC46D2993DBE400473DAA /* Heritage MemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heritage MemoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5BC4712993DBE400473DAA /* Heritage_MemoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heritage_MemoryUITests.swift; sourceTree = "<group>"; };
+		DD5BC4732993DBE400473DAA /* Heritage_MemoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heritage_MemoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD6C033B29AA2C3700FFE2A6 /* ARCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardView.swift; sourceTree = "<group>"; };
+		DD9ED09C2994B3B200FC6266 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		DD9ED0A0299513AB00FC6266 /* aecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5BC4502993DBE200473DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A3B9E52A014C33008DDFD9 /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC4602993DBE400473DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC46A2993DBE400473DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A3B9E32A014C33008DDFD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A3B9E42A014C33008DDFD9 /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5BC44A2993DBE200473DAA = {
+			isa = PBXGroup;
+			children = (
+				D0A582352A169B1400575F71 /* PureBrightness.rcproject */,
+				DD5BC4552993DBE200473DAA /* Heritage Memory */,
+				DD5BC4662993DBE400473DAA /* Heritage MemoryTests */,
+				DD5BC4702993DBE400473DAA /* Heritage MemoryUITests */,
+				DD5BC4542993DBE200473DAA /* Products */,
+				D0A3B9E32A014C33008DDFD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5BC4542993DBE200473DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BC4532993DBE200473DAA /* Heritage Memory.app */,
+				DD5BC4632993DBE400473DAA /* Heritage MemoryTests.xctest */,
+				DD5BC46D2993DBE400473DAA /* Heritage MemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5BC4552993DBE200473DAA /* Heritage Memory */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BC4562993DBE200473DAA /* Heritage_MemoryApp.swift */,
+				DD5BC4582993DBE200473DAA /* ContentView.swift */,
+				DD2D46582997A634005DDF3C /* Using ArView.swift */,
+				D0A3BA262A0356E2008DDFD9 /* ARView1.swift */,
+				D0BEB4AA2A06058900B56B08 /* ARView_SpringEquinox.swift */,
+				D0BEB4B02A06111900B56B08 /* ARView_BegingOfSpring.swift */,
+				D0BEB4B22A06833100B56B08 /* ARView_Dragon.swift */,
+				D0A5822D2A16940300575F71 /* ARView_WakingOfInsects.swift */,
+				D0A5822F2A16941300575F71 /* ARView_RainWater.swift */,
+				D0A582312A16942000575F71 /* ARView_PureBrightness.swift */,
+				D0A582332A16942E00575F71 /* ARView_GrainRain.swift */,
+				D0A8E42B2A12787200B7F2BB /* ARView_Monkey.swift */,
+				D0A8E4372A12826600B7F2BB /* ARView_Pig.swift */,
+				D0A8E4392A1282A400B7F2BB /* ARView_Ox.swift */,
+				D0A8E4352A12825500B7F2BB /* ARView_Sheep.swift */,
+				D02BCF922A13A34500BFD7A4 /* sheepV5.rcproject */,
+				D02BCF942A15382200BFD7A4 /* OxV8.rcproject */,
+				D0A8E43C2A12832A00B7F2BB /* Pig.rcproject */,
+				D0A8E4332A1279FB00B7F2BB /* monkeyV4.rcproject */,
+				D0BEB4B42A0683C400B56B08 /* DragonV1.rcproject */,
+				D0BEB4AC2A06060400B56B08 /* TheBeginingOfSpringPostcard copy 2.rcproject */,
+				D0A582272A16938300575F71 /* GrainRain.rcproject */,
+				D0A582262A16938300575F71 /* RainWater.rcproject */,
+				D0A582282A16938300575F71 /* WakingOfInsects.rcproject */,
+				D0BEB4AE2A06061200B56B08 /* TheSpringEquinox.rcproject */,
+				DD5BC45A2993DBE400473DAA /* Assets.xcassets */,
+				DD9ED09C2994B3B200FC6266 /* firstView.swift */,
+				DD9ED0A0299513AB00FC6266 /* aecondView.swift */,
+				DD2D465429966D1B005DDF3C /* ARcameraView.swift */,
+				DD6C033B29AA2C3700FFE2A6 /* ARCardView.swift */,
+				D0E6D438299A8863008691C6 /* ARQuickLookView.swift */,
+				DD5BC45C2993DBE400473DAA /* Preview Content */,
+				D089D94B2C0B508400ACADE3 /* SettingsView.swift */,
+				D089D9512C0CA77000ACADE3 /* tutorialView.swift */,
+				D089D94D2C0B5B2F00ACADE3 /* FeedbackView.swift */,
+			);
+			path = "Heritage Memory";
+			sourceTree = "<group>";
+		};
+		DD5BC45C2993DBE400473DAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BC45D2993DBE400473DAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD5BC4662993DBE400473DAA /* Heritage MemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BC4672993DBE400473DAA /* Heritage_MemoryTests.swift */,
+			);
+			path = "Heritage MemoryTests";
+			sourceTree = "<group>";
+		};
+		DD5BC4702993DBE400473DAA /* Heritage MemoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BC4712993DBE400473DAA /* Heritage_MemoryUITests.swift */,
+				DD5BC4732993DBE400473DAA /* Heritage_MemoryUITestsLaunchTests.swift */,
+			);
+			path = "Heritage MemoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5BC4522993DBE200473DAA /* Heritage Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BC4772993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage Memory" */;
+			buildPhases = (
+				DD5BC44F2993DBE200473DAA /* Sources */,
+				DD5BC4502993DBE200473DAA /* Frameworks */,
+				DD5BC4512993DBE200473DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heritage Memory";
+			productName = "Heritage Memory";
+			productReference = DD5BC4532993DBE200473DAA /* Heritage Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5BC4622993DBE400473DAA /* Heritage MemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BC47A2993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage MemoryTests" */;
+			buildPhases = (
+				DD5BC45F2993DBE400473DAA /* Sources */,
+				DD5BC4602993DBE400473DAA /* Frameworks */,
+				DD5BC4612993DBE400473DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5BC4652993DBE400473DAA /* PBXTargetDependency */,
+			);
+			name = "Heritage MemoryTests";
+			productName = "Heritage MemoryTests";
+			productReference = DD5BC4632993DBE400473DAA /* Heritage MemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5BC46C2993DBE400473DAA /* Heritage MemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BC47D2993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage MemoryUITests" */;
+			buildPhases = (
+				DD5BC4692993DBE400473DAA /* Sources */,
+				DD5BC46A2993DBE400473DAA /* Frameworks */,
+				DD5BC46B2993DBE400473DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5BC46F2993DBE400473DAA /* PBXTargetDependency */,
+			);
+			name = "Heritage MemoryUITests";
+			productName = "Heritage MemoryUITests";
+			productReference = DD5BC46D2993DBE400473DAA /* Heritage MemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5BC44B2993DBE200473DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DD5BC4522993DBE200473DAA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DD5BC4622993DBE400473DAA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD5BC4522993DBE200473DAA;
+					};
+					DD5BC46C2993DBE400473DAA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DD5BC4522993DBE200473DAA;
+					};
+				};
+			};
+			buildConfigurationList = DD5BC44E2993DBE200473DAA /* Build configuration list for PBXProject "Heritage Memory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5BC44A2993DBE200473DAA;
+			productRefGroup = DD5BC4542993DBE200473DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5BC4522993DBE200473DAA /* Heritage Memory */,
+				DD5BC4622993DBE400473DAA /* Heritage MemoryTests */,
+				DD5BC46C2993DBE400473DAA /* Heritage MemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5BC4512993DBE200473DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5BC45E2993DBE400473DAA /* Preview Assets.xcassets in Resources */,
+				DD5BC45B2993DBE400473DAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC4612993DBE400473DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC46B2993DBE400473DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5BC44F2993DBE200473DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A582322A16942000575F71 /* ARView_PureBrightness.swift in Sources */,
+				D0A8E42C2A12787200B7F2BB /* ARView_Monkey.swift in Sources */,
+				DD9ED0A1299513AB00FC6266 /* aecondView.swift in Sources */,
+				DD2D46592997A634005DDF3C /* Using ArView.swift in Sources */,
+				D0A8E43E2A12832A00B7F2BB /* Pig.rcproject in Sources */,
+				DD6C033C29AA2C3700FFE2A6 /* ARCardView.swift in Sources */,
+				D0A582342A16942E00575F71 /* ARView_GrainRain.swift in Sources */,
+				D0E6D439299A8863008691C6 /* ARQuickLookView.swift in Sources */,
+				D0A8E4362A12825500B7F2BB /* ARView_Sheep.swift in Sources */,
+				D0A5822C2A16938300575F71 /* WakingOfInsects.rcproject in Sources */,
+				D0A8E4342A1279FB00B7F2BB /* monkeyV4.rcproject in Sources */,
+				DD5BC4592993DBE200473DAA /* ContentView.swift in Sources */,
+				D0A5822B2A16938300575F71 /* GrainRain.rcproject in Sources */,
+				D0A582302A16941300575F71 /* ARView_RainWater.swift in Sources */,
+				D0BEB4B32A06833100B56B08 /* ARView_Dragon.swift in Sources */,
+				DD9ED09D2994B3B200FC6266 /* firstView.swift in Sources */,
+				D089D9522C0CA77000ACADE3 /* tutorialView.swift in Sources */,
+				D0A8E43A2A1282A400B7F2BB /* ARView_Ox.swift in Sources */,
+				D0A5822E2A16940300575F71 /* ARView_WakingOfInsects.swift in Sources */,
+				D0BEB4AD2A06060400B56B08 /* TheBeginingOfSpringPostcard copy 2.rcproject in Sources */,
+				D0A5822A2A16938300575F71 /* RainWater.rcproject in Sources */,
+				D089D94E2C0B5B2F00ACADE3 /* FeedbackView.swift in Sources */,
+				D0BEB4B12A06111900B56B08 /* ARView_BegingOfSpring.swift in Sources */,
+				D0A3BA272A0356E2008DDFD9 /* ARView1.swift in Sources */,
+				D0BEB4AF2A06061200B56B08 /* TheSpringEquinox.rcproject in Sources */,
+				DD5BC4572993DBE200473DAA /* Heritage_MemoryApp.swift in Sources */,
+				D0BEB4AB2A06058900B56B08 /* ARView_SpringEquinox.swift in Sources */,
+				D089D94C2C0B508400ACADE3 /* SettingsView.swift in Sources */,
+				D02BCF952A15382200BFD7A4 /* OxV8.rcproject in Sources */,
+				D0BEB4B52A0683C400B56B08 /* DragonV1.rcproject in Sources */,
+				D02BCF932A13A34500BFD7A4 /* sheepV5.rcproject in Sources */,
+				D0A8E4382A12826600B7F2BB /* ARView_Pig.swift in Sources */,
+				DD2D465529966D1B005DDF3C /* ARcameraView.swift in Sources */,
+				D0A582362A169B1400575F71 /* PureBrightness.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC45F2993DBE400473DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5BC4682993DBE400473DAA /* Heritage_MemoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BC4692993DBE400473DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5BC4742993DBE400473DAA /* Heritage_MemoryUITestsLaunchTests.swift in Sources */,
+				DD5BC4722993DBE400473DAA /* Heritage_MemoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5BC4652993DBE400473DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5BC4522993DBE200473DAA /* Heritage Memory */;
+			targetProxy = DD5BC4642993DBE400473DAA /* PBXContainerItemProxy */;
+		};
+		DD5BC46F2993DBE400473DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5BC4522993DBE200473DAA /* Heritage Memory */;
+			targetProxy = DD5BC46E2993DBE400473DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD5BC4752993DBE400473DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD5BC4762993DBE400473DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5BC4782993DBE400473DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heritage Memory/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CK86C56BH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "千遗记";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "允许相机权限，以开始AR体验。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Heritage-Memory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5BC4792993DBE400473DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heritage Memory/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CK86C56BH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "千遗记";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "允许相机权限，以开始AR体验。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Heritage-Memory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD5BC47B2993DBE400473DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJZM5QJTNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Heritage-MemoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heritage Memory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heritage Memory";
+			};
+			name = Debug;
+		};
+		DD5BC47C2993DBE400473DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJZM5QJTNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Heritage-MemoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heritage Memory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heritage Memory";
+			};
+			name = Release;
+		};
+		DD5BC47E2993DBE400473DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJZM5QJTNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Heritage-MemoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heritage Memory";
+			};
+			name = Debug;
+		};
+		DD5BC47F2993DBE400473DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJZM5QJTNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Heritage-MemoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heritage Memory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5BC44E2993DBE200473DAA /* Build configuration list for PBXProject "Heritage Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BC4752993DBE400473DAA /* Debug */,
+				DD5BC4762993DBE400473DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BC4772993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BC4782993DBE400473DAA /* Debug */,
+				DD5BC4792993DBE400473DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BC47A2993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage MemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BC47B2993DBE400473DAA /* Debug */,
+				DD5BC47C2993DBE400473DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BC47D2993DBE400473DAA /* Build configuration list for PBXNativeTarget "Heritage MemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BC47E2993DBE400473DAA /* Debug */,
+				DD5BC47F2993DBE400473DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5BC44B2993DBE200473DAA /* Project object */;
+}
